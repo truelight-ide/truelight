@@ -24,3 +24,6 @@ Then add this line to your `init.lua`:
 ```
 require('truelight')
 ```
+
+### Roadmap
+[Roadmap](https://github.com/orgs/truelight-ide/projects/1)
