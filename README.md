@@ -27,3 +27,10 @@ require('truelight')
 
 ### Roadmap
 [Roadmap](https://github.com/orgs/truelight-ide/projects/1)
+
+### Special thanks
+
+This project uses following awesome projects:
+- [savq/paq-nvim](https://github.com/savq/paq-nvim) for package management
+- [neovi/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) for lsp configuration
+- [gpanders/editorconfig.nvim](https://github.com/gpanders/editorconfig.nvim) for editorconfig support
