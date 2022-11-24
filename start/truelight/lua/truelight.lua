@@ -9,6 +9,7 @@ require "paq" {
   "hrsh7th/cmp-cmdline";
   "hrsh7th/nvim-cmp";
   "ibhagwan/fzf-lua";
+  "lunarvim/Onedarker.nvim";
 }
 
 -- lspconfig mapping - START
@@ -174,3 +175,5 @@ vim.keymap.set('n', '<leader>ff', "<cmd>lua require('fzf-lua').files()<CR>", opt
 vim.keymap.set('n', '<leader>fg', "<cmd>lua require('fzf-lua').git_files()<CR>", opts)
 vim.keymap.set('n', '<leader>g', "<cmd>lua require('fzf-lua').live_grep()<CR>", opts)
 -- fzf - END
+
+vim.cmd("colorscheme onedarker")

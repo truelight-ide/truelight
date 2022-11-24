@@ -45,3 +45,4 @@ truelight depends on following awesome projects:
 - [neovi/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) for lsp configuration
 - [gpanders/editorconfig.nvim](https://github.com/gpanders/editorconfig.nvim) for editorconfig support
 - [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua) for fzf integration
+- [lunarvim/Onedarker.nvim](https://github.com/lunarvim/Onedarker.nvim) for onedarker colorscheme
