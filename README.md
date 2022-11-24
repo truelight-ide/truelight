@@ -6,6 +6,16 @@ TrueLight is a zero config, IDE-like neovim distribution
 
 ### Installation
 
+TODO: provide a much better installation experience
+
+#### Install fzf
+
+```sh
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
+
+#### Install truelight
 For Unix/Linux:
 
 ```sh
@@ -30,7 +40,8 @@ require('truelight')
 
 ### Special thanks
 
-This project uses following awesome projects:
+truelight depends on following awesome projects:
 - [savq/paq-nvim](https://github.com/savq/paq-nvim) for package management
 - [neovi/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) for lsp configuration
 - [gpanders/editorconfig.nvim](https://github.com/gpanders/editorconfig.nvim) for editorconfig support
+- [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua) for fzf integration

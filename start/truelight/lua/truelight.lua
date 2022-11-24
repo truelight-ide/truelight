@@ -8,6 +8,7 @@ require "paq" {
   "hrsh7th/cmp-path";
   "hrsh7th/cmp-cmdline";
   "hrsh7th/nvim-cmp";
+  "ibhagwan/fzf-lua";
 }
 
 -- lspconfig mapping - START
@@ -167,3 +168,9 @@ for _, lsp_server in ipairs(lsp_servers) do
 end
 -- nvpm-cmp - END
 --
+
+-- fzf - START
+vim.keymap.set('n', '<leader>ff', "<cmd>lua require('fzf-lua').files()<CR>", opts)
+vim.keymap.set('n', '<leader>fg', "<cmd>lua require('fzf-lua').git_files()<CR>", opts)
+vim.keymap.set('n', '<leader>g', "<cmd>lua require('fzf-lua').live_grep()<CR>", opts)
+-- fzf - END
